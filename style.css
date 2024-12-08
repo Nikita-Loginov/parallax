@@ -62,14 +62,16 @@ body {
 }
 .parallax__decor-item:first-of-type {
   gap: 100px;
-  transform: translateY(-10%);
+  margin-top: -10%;
 }
 .parallax__decor-item:nth-child(2) {
   gap: 140px;
+  margin-top: 10%;
 }
 .parallax__decor-item:last-of-type {
   gap: 60px;
   transform: translateY(10%);
+  margin-top: -5%;
 }
 
 .parallax {
